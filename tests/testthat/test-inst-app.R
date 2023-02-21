@@ -5,6 +5,6 @@ library(shinytest2)
 
 test_that("monthApp works", {
 
-  appdir <- system.file(package = "exPackage", "monthApp")
+  appdir <- system.file(package = "monthApp", "app")
   test_app(appdir)
 })
